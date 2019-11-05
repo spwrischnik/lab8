@@ -71,8 +71,8 @@ app.get("/gradeQuiz", function(req,res){
         score += 12.5;
         f8 = "Right!";
     }
-    res.send({"score": score, "feedback":[{"fback":f1}, {"fback":f2}, {"fback":f3}, {"fback":f4}, {"fback":f5}]})
-    res.send({"score": score, "feedback":[{"fback":f6}, {"fback":f7}, {"fback":f8}]});
+    res.send({"score": score, "feedback":[{"fback":f1}, {"fback":f2}, {"fback":f3}, {"fback":f4}, {"fback":f5}, 
+    {"fback":f6}, {"fback":f7}, {"fback":f8}]});
     
     
 });
